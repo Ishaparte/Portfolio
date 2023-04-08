@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*body styling*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/*name styling*/
+.name{
+    color: white;
+}
+
+/*navbar*/
+.nav{
+   background-color: rgb(61, 56, 56);
+   width: 100%;
+   
+}
+.nav-ele{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+.nav-ele:hover{
+    color: rgb(255, 217, 0) ;
+}
+/*button styling*/
+.button{
+ 
+ color: rgb(240, 240, 110);
+ 
+}
+button{
+    background-color: rgb(255, 217, 0);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 15px;
+}
+button:hover{
+    color: rgb(218, 191, 40);
+    cursor: pointer;
+}
+
+/*home styling*/
+.home{
+ padding: 100px;
+}
+
+/*img styling*/
+#img{
+    display: inline-block;
+    width:300px;
+    position: relative;
+    left: 800px;
+    bottom: 350px;
+}
+
+
+/*about styling*/
+.about{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
+    width: 50%;
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 6px;
+     
+}
+
+
+/*project styling*/
+.Projects{
+    display: inline-block;
+    padding: auto;
+    margin: auto; 
+    text-align: center;
+    border: 2px solid white;
+    width: 50%;
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 6px;
+}
+
+.contain{
+    display: grid;
+    grid-row-gap: 25px;
+    justify-content: center;
+}
+/*contact styling*/
+.Contact{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px 3px ;
+    width: 50%;
+    border-radius: 6px;
+}
+
+/*icon-styling*/
+ion-icon{
+    width:50px;
+}
+
+.head{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+hr{
+    position: relative;
+    bottom:50px;
+}
+
+
+@media (max-width:980px){
+    #img{
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+}
+

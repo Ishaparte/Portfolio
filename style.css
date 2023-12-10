@@ -51,16 +51,18 @@ button:hover{
 
 /*home styling*/
 .home{
- padding: 100px;
+ padding: 150px;
 }
 
 /*img styling*/
 #img{
     display: inline-block;
     width:300px;
+    height: 340px;
     position: relative;
-    left: 800px;
-    bottom: 350px;
+    left: 900px;
+    bottom: 400px;
+    border-radius: 75%;
 }
 
 
